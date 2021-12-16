@@ -64,7 +64,7 @@ public class Anime {
         this.author = author;
     }
 
-    @Column(name = "name", nullable = false, unique=true)
+    @Column(name = "name", nullable = false)
     public String getName() {
         return name;
     }
